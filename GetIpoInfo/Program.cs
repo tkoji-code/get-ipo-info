@@ -77,7 +77,7 @@ namespace GetIpoInfo
         private static string[] SearchIpoUrls(AngleSharp.Html.Dom.IHtmlDocument doc)
         {
             // hrefを参照して"/company/数字4桁"なら取得する
-            const string headerUrl = "https://www.ipokiso.com";
+            const string headerUrl = "****";
 
             List<string> ipoUrlList = new();
             foreach (var item in doc.QuerySelectorAll("a"))
